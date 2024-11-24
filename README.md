@@ -1,1 +1,1 @@
-# Welcom to the Documentation page of STEMAIDE Africa Ltd.
+# Welcome to STEMAIDE Africa Ltd.
