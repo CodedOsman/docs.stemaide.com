@@ -46,7 +46,7 @@ Creating a new branch helps keep your changes organized and separate from the ma
 1. Create a new branch with a descriptive name
    ```bash
    git checkout -b update-readme
-   
+
    Replace 'update-readme' with a name that describes your changes (e.g., fix-typo, add-section)
 
 ## 4. Make Your Changes
@@ -71,7 +71,7 @@ Now it’s time to edit the documentation files! We use Markdown for all documen
 
    **Bold Text**: Wrap your text between two asteriks(**).
 
-   [Find the markdown cheatsheet here][assets\markdown_cheat_sheet_opensource.com_.pdf].
+   [Find the markdown cheatsheet here](assets\markdown_cheat_sheet_opensource.com_.pdf).
 
 4. Save your changes when you are done.
 
