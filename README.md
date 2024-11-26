@@ -7,7 +7,7 @@
 
 # Getting Started
 Here's a quick overview of what you can expect from our guides:
-<details>
+
 <summary>The Arduino IDE and Basic Set Up</summary>
 **Step 1:** Double click on the Arduino IDE icon on your computer / laptop to open Arduino IDE.
 
@@ -32,16 +32,12 @@ At the point you should see the code below on your computer / laptop.
 
 _**NB:** we will write the necessary code and comment at the space we created above the void setup ()._
 
-## COMMENT
+## Comment
 In programming, a comment is a piece of text that is added to the source code of a program to provide information or explanations. Comments are intended for human readers and are ignored by the compiler or interpreter when the program is executed.
 
 ![Third interface of IDE](assets/comment.png).
 
 _**NB:** before you type a comment, type two slash (//) before you complete your sentence._
-
-</details>
-
-<details>
 
 <summary> Selecting Arduino Board Type and Uploading your code</summary>
 
@@ -80,26 +76,37 @@ _**NB:** Make sure there is no error in your code and the Arduino USB cable is c
 
 ![Pinmode decalration](assets/done.png).
 
-</details>
+# User Manual
 
-## STEMAIDE User Manual
+## Manual 1.0
 
-<details>
-
-<summary>Manual 1.0</summary>
-
-<details>
-
-<summary>LED</summary>
+### 1.0 LED
 
 - [LED 1](docs/manuals/1.0/LED/1.LED_ON.md)
 - [LED 2](docs/manuals/1.0/LED/2.LED_BLINK.md)
 
-</details>
+### 2.0 Buzzer
+
+### 3.0 Push Button
+
+### 4.0 Traffic Light Module
+
+### 5.0 RGB Module
+
+### 6.0 LDR Module
+
+### 7.0 Servo Motor
+
+### 8.0 Ultrasonic Sensor
+
+### 9.0 Sound Sensor
 
 
 
-</details>
+
+## Manual 2.0
+
+## Manual 3.0
 
 ## Project Ideas
 ## Community Forum
