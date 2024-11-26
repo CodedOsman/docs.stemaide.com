@@ -7,8 +7,10 @@
 
 # Getting Started
 Here's a quick overview of what you can expect from our guides:
+
 <details>
-<summary>The Arduino IDE and Basic Set Up</summary>
+
+### <summary>The Arduino IDE and Basic Set Up</summary>
 **Step 1:** Double click on the Arduino IDE icon on your computer / laptop to open Arduino IDE.
 
 ![Arduino IDE logo](assets/Arduino_IDE.png).
@@ -32,6 +34,10 @@ At the point you should see the code below on your computer / laptop.
 
 _**NB:** we will write the necessary code and comment at the space we created above the void setup ()._
 
+
+
+</details>
+
 ## COMMENT
 In programming, a comment is a piece of text that is added to the source code of a program to provide information or explanations. Comments are intended for human readers and are ignored by the compiler or interpreter when the program is executed.
 
@@ -39,11 +45,9 @@ In programming, a comment is a piece of text that is added to the source code of
 
 _**NB:** before you type a comment, type two slash (//) before you complete your sentence._
 
-</details>
-
 <details>
 
-<summary> Selecting Arduino Board Type and Uploading your code</summary>
+### <summary> Selecting Arduino Board Type and Uploading your code</summary>
 
 **Step 1:** Select the Board type. 
 Click on tools on the menu bar hover your mouse on Board, a new window will appear. Look through and click on Arduino UNO.
@@ -86,7 +90,7 @@ _**NB:** Make sure there is no error in your code and the Arduino USB cable is c
 
 <details>
 
-<summary>Manual 1.0</summary>
+### <summary> Manual 1.0</summary>
 
 <details>
 
