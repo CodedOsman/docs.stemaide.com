@@ -71,7 +71,7 @@ Now it’s time to edit the documentation files! We use Markdown for all documen
 
    **Bold Text**: Wrap your text between two asteriks(**).
 
-   [Find the markdown cheatsheet here](assets\markdown_cheat_sheet_opensource.com_.pdf).
+   [Find the markdown cheatsheet here](assets/markdown_cheat_sheet_opensource.com_.pdf).
 
 4. Save your changes when you are done.
 
