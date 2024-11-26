@@ -9,5 +9,23 @@
 Here's a quick overview of what you can expect from our guides:
 
 ## STEMAIDE User Manual
+
+<details>
+
+<summary>Manual 1.0</summary>
+
+<details>
+
+<summary>LED</summary>
+
+- [LED 1](docs/manuals/1.0/LED/1.LED_ON.md)
+- [LED 2](docs/manuals/1.0/LED/2.LED_BLINK.md)
+
+</details>
+
+
+
+</details>
+
 ## Project Ideas
 ## Community Forum
