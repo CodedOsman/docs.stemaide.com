@@ -44,7 +44,9 @@ Once you’ve forked the repository, you’ll need to clone it to your local mac
 Creating a new branch helps keep your changes organized and separate from the main project.
 
 1. Create a new branch with a descriptive name
+   ```bash
    git checkout -b update-readme
+   
    Replace 'update-readme' with a name that describes your changes (e.g., fix-typo, add-section)
 
 ## 4. Make Your Changes
@@ -57,16 +59,20 @@ Now it’s time to edit the documentation files! We use Markdown for all documen
 
    Markdown Example
    Here’s a quick Markdown example to help you:
-   # Heading 1
-   Use a single hash(#) symbol for this effect
-   ## Heading 2
-   Use a double hash(##) for th1is effect
-   ### Heading 3
-   Use a triple hash(##) for this effect
 
-   - Bullet point: Use hyphen(-) symbol
-   **Bold Text**: Wrap your text between two asteriks(**)
-   [Find the markdown cheatsheet here][assets\markdown_cheat_sheet_opensource.com_.pdf]
+   # Heading 1
+   Use a single hash(#) symbol for this effect.
+   ## Heading 2
+   Use a double hash(##) for th1is effect.
+   ### Heading 3
+   Use a triple hash(##) for this effect.
+
+   - Bullet point: Use hyphen(-) symbol.
+
+   **Bold Text**: Wrap your text between two asteriks(**).
+
+   [Find the markdown cheatsheet here][assets\markdown_cheat_sheet_opensource.com_.pdf].
+
 4. Save your changes when you are done.
 
 ## 5. Update the Changelog
@@ -81,12 +87,15 @@ Every change you make should be recorded in the CHANGELOG.md file.
 Now that you’ve made and saved your changes, you’ll need to push them to your forked repository.
 
 1. Stage your changes:
+   ```bash
    git add .
 
 2. Commit your changes with a meaningful message:
+   ```bash
    git commit -m "Added contribution guide and updated changelog"
 
 3. Push your changes to your fork:
+   ```bash
    git push origin update-readme
 
 ## 7. Create a Pull Request
@@ -113,6 +122,7 @@ The project maintainers will review your pull request. Here’s what might happe
 
     - Make the required changes in your local branch.
     - Commit and push the changes:
+      ```bash
       git add .
       git commit -m "Fixed feedback issues"
       git push origin update-readme
