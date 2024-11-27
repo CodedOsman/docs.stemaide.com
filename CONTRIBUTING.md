@@ -66,7 +66,7 @@ Now it’s time to edit the documentation files! We use Markdown for all documen
    ## Heading 2
    Use a double hash(##) for th1is effect.
    ### Heading 3
-   Use a triple hash(##) for this effect.
+   Use a triple hash(###) for this effect.
 
    - Bullet point: Use hyphen(-) symbol.
 
