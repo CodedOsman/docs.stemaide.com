@@ -36,6 +36,7 @@ Once you’ve forked the repository, you’ll need to clone it to your local mac
 2. Run the following command (replace `your-username` with your GitHub username):
    ```bash
    git clone https://github.com/your-username/docs.stemaide.com.git
+   ```
 3. Navigate to the directory you just cloned:
    cd docs.stemaide.com
 
@@ -46,7 +47,7 @@ Creating a new branch helps keep your changes organized and separate from the ma
 1. Create a new branch with a descriptive name
    ```bash
    git checkout -b update-readme
-
+   ```
    Replace 'update-readme' with a name that describes your changes (e.g., fix-typo, add-section)
 
 ## 4. Make Your Changes
@@ -89,14 +90,15 @@ Now that you’ve made and saved your changes, you’ll need to push them to you
 1. Stage your changes:
    ```bash
    git add .
-
+   ```
 2. Commit your changes with a meaningful message:
    ```bash
    git commit -m "Added contribution guide and updated changelog"
-
+   ```
 3. Push your changes to your fork:
    ```bash
    git push origin update-readme
+   ```
 
 ## 7. Create a Pull Request
 
@@ -126,7 +128,8 @@ The project maintainers will review your pull request. Here’s what might happe
       git add .
       git commit -m "Fixed feedback issues"
       git push origin update-readme
-
+      ```
+      
 ## Additional Tips
 
     - Ask for Help: If you’re stuck, feel free to ask for help by commenting on your pull request or opening an issue.
