@@ -67,7 +67,7 @@ pinMode (buzzer, OUTPUT);
 **Step 4:** Type the following codes in the void loop function as shown below;
 
 ```
-Type digitalWrite (buzzer, HIGH);
+digitalWrite (buzzer, HIGH);
 ```
 
 ![Truning On the buzzer](../../assets/1.0/BUZZER/Buzzer_code_3.png).
