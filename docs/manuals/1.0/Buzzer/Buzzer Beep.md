@@ -72,7 +72,29 @@ digitalWrite (buzzer, HIGH);
 
 ![Truning On the buzzer](../../assets/1.0/BUZZER/Buzzer_code_3.png).
 
-**NB:** To turn off the buzzer, replace HIGH with LOW in the code. This change will stop sending a signal to the buzzer, turning it off.
+**Step 5:** Now, let's add a delay by typing the following code.;
+
+```
+ delay(1000);
+```
+
+![Truning On the buzzer](../../assets/1.0/BUZZER/Buzzer_code_4.png).
+
+**Step 6:**Continue by typing the code shown below exactly as displayed in the image.
+
+```
+digitalWrite (buzzer, LOW);
+```
+
+![Truning On the buzzer](../../assets/1.0/BUZZER/Buzzer_code_5.png).
+
+**Step 7:** Finally, let's complete it by typing the following delay code as shown below.
+
+```
+delay(1000);
+```
+
+![Truning On the buzzer](../../assets/1.0/BUZZER/Buzzer_code_6.png).
 
 **Step 5:** Save your code. _See the [Getting Started](../../../../README.md#getting-started) section_
 
