@@ -9,7 +9,6 @@
 
 ## [LED Documentation]
 ### Added
-- Uploaded the content of turning on LED from the original manual
+- Uploaded the content of turning on LED from the original manual [Date] - 26/11/2024 [Time] - 1:10pm (GMT)
 
-[Date] - 26/11/2024
-[Time] - 1:10pm (GMT)
+- Uploaded content for LED Blink [Date] - 26/11/2024 [Time] - 1:10pm (GMT)
