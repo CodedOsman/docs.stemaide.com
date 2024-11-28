@@ -30,7 +30,7 @@ Things Needed:
 ### Things Needed:
 
 - Red male-male-to-male jumper wires = 1
-- white jumper wire = 1
+- White jumper wire = 1
 
 **step 1:** Take the red jumper wire. This wire will connect the Arduino UNO the red light (red pin) of the traffic light. This pin is labeled “R” on the traffic light.
 
