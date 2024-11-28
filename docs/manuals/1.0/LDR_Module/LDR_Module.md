@@ -25,7 +25,7 @@ Things Needed:
 
 **Step 1:** Take the light dependent resistor and the breadboard, insert the light dependent resistor into the horizontal connectors on the   breadboard
 
-![LDR fixed on breadboard](../../assets/1.0/LDR_Module/Picture1.png.jpg).
+![LDR fixed on breadboard](../../assets/1.0/LDR_Module/Picture1.png).
 
 
 ## WIRING THE CIRCUIT
@@ -38,19 +38,19 @@ Things Needed:
 
 **Step 2:** Take the red jumper wire. Connect one end of the wire to the “VCC” port on the resistor and the other end to the “5V” port on the Arduino UNO.
 
-![LDR fixed on breadboard](../../assets/1.0/LDR_Module/Picture2.png.jpg)
+![LDR fixed on breadboard](../../assets/1.0/LDR_Module/Picture2.png)
 
 **Step 3:** Take the black jumper wire. Connect one end of the wire to the “GND” hole on the Arduino UNO and the other end to the “GND” port on the resistor.
 
-![LED fixed on breadboard](../../assets/1.0/LDR_Module/Picture3.png.jpg).
+![LED fixed on breadboard](../../assets/1.0/LDR_Module/Picture3.png).
 
 **Step 4:** Take the white jumper wire. Connect one end of the wire to the “DO” hole on the resistor and the other end to hole number 2 on the Arduino UNO.
 
-![LED fixed on breadboard](../../assets/1.0/LDR_Module/Picture4.png.jpg).
+![LED fixed on breadboard](../../assets/1.0/LDR_Module/Picture4.png).
 
 **Step 5:** Take the green jumper wire. Connect one end of the wire to the “AO” port  on the Arduino UNO to the “AO” port on the resistor.
 
-![LED fixed on breadboard](../../assets/1.0/LDR_Module/Picture5.png.jpg).
+![LED fixed on breadboard](../../assets/1.0/LDR_Module/Picture5.png).
 
 _make sure you connect the arduino usb use blue cable to the Arduino board_.
 
