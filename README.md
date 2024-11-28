@@ -82,8 +82,10 @@ _**NB:** Make sure there is no error in your code and the Arduino USB cable is c
 
 ### 1.0 LED
 
-- [LED 1](docs/manuals/1.0/LED/1.LED_ON.md)
-- [LED 2](docs/manuals/1.0/LED/2.LED_BLINK.md)
+- [Turn on one LED](docs/manuals/1.0/LED/1.LED_ON.md)
+- [Blink one LED](docs/manuals/1.0/LED/1.1.One_LED_Blink.md)
+- [Turn on two LEDs](docs/manuals/1.0/LED/2.LEDS_ON.md)
+- [Blink two LEDs](docs/manuals/1.0/LED/2.1.Two_LED_Blink.md)
 
 ### 2.0 Buzzer
 
