@@ -91,7 +91,7 @@ The digitalWrite () function controls the state of the pin. The pin can either b
 
 ## OBSERVATION
 
-When the circuit is functioning, observe the Red LED of the tgrafic ligth blinking as expected. This indicates that the buzzer is receiving the signal correctly from the Arduino and is operating as intended.
+When the circuit is functioning, observe the Red LED of the tgrafic ligth blinking as expected. This indicates that the LED is receiving the signal correctly from the Arduino and is operating as intended.
 
 ## CONCLUSION
 
