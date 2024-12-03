@@ -22,7 +22,7 @@ Things Needed:
 
 ## Mounting the component on the breadboard
 
-**Step 1:** Push Button:Insert two pins into row g and two pins into row d on the breadboar
+**Step 1:** Push Button:Insert two pins into row g and two pins into row d on the breadboard
 ![inseting push button](../../assets/2.0/2.2.Push%20Button%20+%20Buzzer/push1.png).
 
 **step 2:** Buzzer: Insert the buzzer into row J on the breadboard. Ensure the longer pin (positive) is correctly aligned.
