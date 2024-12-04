@@ -8,7 +8,7 @@
 
 | ![Arduino Uno](../../assets/components/arduino.png) |
 | ![RGB Module](../../assets/components/RGB_MODULE.png) | ![Bread Board](../../assets/components/breadboard.png) | ![Arduino USB Cable](../../assets/components/USB_Cable.png) | ![Ultrasonic Sensor](../../assets/components/ultrasonic.png) | ![Jumper wires](../../assets/components/jump_wire.png) |
-| --------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| --------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------ |
 
 ## Building the circuit
 
@@ -83,7 +83,7 @@ Things Needed:
 
 **Step 8:** Finally, Take the White male-male-to-male jumper wire and place one side of the wire pin under the GND pin of the module and the other side of the wire pin to the GND port on the Arduino Uno Board.
 
-![connect white jumper wire to traffic](../../assets/2.0/ultrasonic_Sensor/Rwhite.jpg).
+![connect white jumper wire to RGB](../../assets/2.0/ultrasonic_Sensor/Rwhite.jpg).
 
 **Step 9:** Connect the USB port of the Arduino cable to the USB port of your laptop and the other side to the Arduino Uno Board.
 
