@@ -79,7 +79,7 @@ Things Needed:
 
 **Step 7:** Take the Blue male-to-male jumper wire and place one side of the wire pin under the Blue pin of the RGB module and the other side of the wire pin to the digital pin 6 on the Arduino uno board.
 
-![connect blue jumper wire to RGB](../../assets/2.0/ultrasonic_Sensor/Rblue.jpg).
+![connect blue jumper wire to RGB](../../assets/2.0/ultrasonic_Sensor/RBlue.jpg).
 
 **Step 8:** Finally, Take the White male-male-to-male jumper wire and place one side of the wire pin under the GND pin of the module and the other side of the wire pin to the GND port on the Arduino Uno Board.
 
