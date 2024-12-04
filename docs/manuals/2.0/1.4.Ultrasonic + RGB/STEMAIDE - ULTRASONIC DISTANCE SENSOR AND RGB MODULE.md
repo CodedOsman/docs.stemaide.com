@@ -7,7 +7,7 @@
 ## Components (Things You will need)
 
 | ![Arduino Uno](../../assets/components/arduino.png) |
-| ![RGB Module](../../assets/components/RGB_MODULE.png) | ![Bread Board](../../assets/components/breadboard.png) | ![Arduino USB Cable](../../assets/components/USB_Cable.png) | ![Ultrasonic Sensor](../../assets/components/ultrasonic.png) | ![Jumper wires](../../assets/components/jump_wire.png) |
+| ![RGB Module](../../assets/components/RGB_Module.png) | ![Bread Board](../../assets/components/breadboard.png) | ![Arduino USB Cable](../../assets/components/USB_Cable.png) | ![Ultrasonic Sensor](../../assets/components/ultrasonic.png) | ![Jumper wires](../../assets/components/jump_wire.png) |
 | --------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------ |
 
 ## Building the circuit
