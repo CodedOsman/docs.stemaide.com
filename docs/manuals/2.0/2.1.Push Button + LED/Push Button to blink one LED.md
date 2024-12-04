@@ -94,7 +94,7 @@ pinMode (LedPin1, OUTPUT);
     isBlinking = false;
   }
 ```
-![inseting the buzzer](../../assets/2.0/2.1.Push%20Button%20+%20LED/code%203.PNG).
+![inseting the buzzer](../../assets/2.0/2.1.Push%20Button%20+%20LED/2.code%203.PNG).
 
 ## Uploading the code
 
