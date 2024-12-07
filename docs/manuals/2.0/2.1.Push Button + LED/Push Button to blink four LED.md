@@ -31,7 +31,7 @@ Things Needed:
 **Step 1:** Connect the push-button on the breadboard but make sure the two pair of the pins are connected on each side of the bridge.
 ![inseting the buzzer](../../assets/2.0/2.1.Push%20Button%20+%20LED/4.LED/2,img%201.png).
 
-**step 2** Inset three (3) LEDs on the breadboard as shown in the picture below.
+**step 2** Inset four (4) LEDs on the breadboard as shown in the picture below.
 ![inseting the buzzer](../../assets/2.0/2.1.Push%20Button%20+%20LED/4.LED/2.img%202.png).
 
 ## WIRING THE CIRCUIT
