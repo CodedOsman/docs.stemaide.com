@@ -2,7 +2,7 @@
 
 | **Description** | You will learn how to create a simple circuit using an Arduino microcontroller and a push button to make two LED blink.
 |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
 | **Use case** | The use case for using a push button to control the blinking of LEDs is to provide customizable visual feedback, signaling/alerting functionality, interactive lighting, educational demonstrations, or prototyping/testing capabilities. |
 
 ## Components (Things You will need)
