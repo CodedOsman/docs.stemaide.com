@@ -8,7 +8,7 @@
 # Getting Started
 Here's a quick overview of what you can expect from our guides:
 
-<summary>The Arduino IDE and Basic Set Up</summary>
+## The Arduino IDE and Basic Set Up
 **Step 1:** Double click on the Arduino IDE icon on your computer / laptop to open Arduino IDE.
 
 ![Arduino IDE logo](assets/Arduino_IDE.png).
