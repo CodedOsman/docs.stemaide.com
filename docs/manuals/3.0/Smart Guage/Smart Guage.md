@@ -6,8 +6,11 @@
 
 ## Components (Things You will need)
 
+## Components (Things You will need)
+
 | ![LED](../../assets/components/LED.png) | ![Arduino Uno](../../assets/components/arduino.png) | ![Arduino USB Cable](../../assets/components/USB_Cable.png) | ![Breadboard](../../assets/components/breadboard.png) |![Breadboard](../../assets/components/jump_wire.png)| ![Breadboard](../../assets/components/ultrasonic.png)| ![Breadboard](../../assets/components/Resistor.png)|
 |-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
+
 
 ## Building the circuit
 
