@@ -8,7 +8,7 @@
 # Getting Started
 Here's a quick overview of what you can expect from our guides:
 
-<summary>The Arduino IDE and Basic Set Up</summary>
+## The Arduino IDE and Basic Set Up
 **Step 1:** Double click on the Arduino IDE icon on your computer / laptop to open Arduino IDE.
 
 ![Arduino IDE logo](assets/Arduino_IDE.png).
@@ -86,27 +86,68 @@ _**NB:** Make sure there is no error in your code and the Arduino USB cable is c
 - [Blink one LED](docs/manuals/1.0/LED/1.1.One_LED_Blink.md)
 - [Turn on two LEDs](docs/manuals/1.0/LED/2.LEDS_ON.md)
 - [Blink two LEDs](docs/manuals/1.0/LED/2.1.Two_LED_Blink.md)
+- [Turn on three LEDs](docs/manuals/1.0/LED/3.Three_LEDs_ON.md)
+- [Blink three LEDs](docs/manuals/1.0/LED/3.1.Three_LEDs_Blink.md)
+- [Turn on four LEDs](docs/manuals/1.0/LED/4.Four_LEDs_On.md)
+- [Blink four LEDs](docs/manuals/1.0/LED/4.Four_LEDs_On.md)
+- [Turn on five LEDs](docs/manuals/1.0/LED/4.1.Four_LEDs_Blink.md)
+- [Turn on five LEDs](docs/manuals/1.0/LED/5.Five_LEDs_On.md)
+- [Blink five LEDs](docs/manuals/1.0/LED/5.1.Five_LEDs_Blink.md)
 
 ### 2.0 Buzzer
 
+- [Buzzer On and Off](docs/manuals/1.0/Buzzer/Buzzer%20On%20and%20Off.md)
+- [Buzzer Beep](docs/manuals/1.0/Buzzer/Buzzer%20Beep.md)
+
 ### 3.0 Push Button
+
+- [Push Button with 1 LED](docs/manuals/1.0/Push_Button/3.1._Push_Button_press_with_1_LEDs.md)
+- [Push Button with 2 LEDs](docs/manuals/1.0/Push_Button/3.2._Push_Button_press_with_2_LEDs.md)
+- [Push Button with 3 LEDs](docs/manuals/1.0/Push_Button/3.3._Push_Button_press_with_3_LEDs.md)
+- [Push Button with 4 LED](docs/manuals/1.0/Push_Button/3.4._Push_Button_press_with_4_LEDs.md)
 
 ### 4.0 Traffic Light Module
 
+- [Traffic Light Green Light On](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Green%20ON.md)
+- [Traffic Light Blink Green Light](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Green%20Blink.md)
+- [Traffic Light Red Light On](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Red%20ON.md)
+- [Traffic Light Blink Red Light](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Red%20BLINK.md)
+- [Traffic Light Yellow Light On](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Yellow%20ON.md)
+- [Traffic Light Blink Yellow Light](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Yellow%20Blink.md)
+
 ### 5.0 RGB Module
+
+- [RGB Introduction](docs/manuals/1.0/RGB/5.0RGB_Intro.md)
+- [RGB Turn Red Light On](docs/manuals/1.0/RGB/5.1.RGB_Red_On.md)
+- [RGB Blink Red Light](docs/manuals/1.0/RGB/5.2.RGB_Red_Blink.md)
+- [RGB Turn Green Light On](docs/manuals/1.0/RGB/5.3.RGB_Green_On.md)
+- [RGB Blink Green Light](docs/manuals/1.0/RGB/5.4.RGB_Green_Blink.md)
+- [RGB Turn Blue Light On](docs/manuals/1.0/RGB/5.5.RGB_Blue_On.md)
+- [RGB Blink Blue Light](docs/manuals/1.0/RGB/5.6.RGB_Blue_Blink.md)
+- [RGB Rainbow Colors](docs/manuals/1.0/RGB/5.7.RGB_Rainbow_Colors.md)
 
 ### 6.0 LDR Module
 
+- [LDR Module](docs/manuals/1.0/LDR_Module/LDR_Module.md)
+
 ### 7.0 Servo Motor
+
+- [Servo Motor One Angle](docs/manuals/1.0/Servo_Motor/7.0.Servo_Motor_One_Angle.md)
+- [Servo Motor Sweep](docs/manuals/1.0/Servo_Motor/7.1.Servo_Motor_Sweep.md)
 
 ### 8.0 Ultrasonic Sensor
 
+- [Ultrasonic Sensor with RGB](docs/manuals/1.0/Ultrasonic_Sensor/ultrasonic_RGB.md)
+
 ### 9.0 Sound Sensor
 
+- [Sound Sensor](docs/manuals/1.0/Sound_Sensor/9.0.Sound_Sensor.md)
 
 
 
 ## Manual 2.0
+
+### 2.1 Ultrasonic Sensor
 
 ## Manual 3.0
 
