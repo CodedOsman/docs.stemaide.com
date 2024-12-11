@@ -1,44 +1,43 @@
-# Project 3.001: SMART STREET LIGHT (4 LEDs) 
+# Project 3.001: SMART STREET LIGHT (4 LEDs)
 
 | **Description** | You will learn how use the detection of the presence or absence of light to turn on or turn off LEDs. |
-|------------------|----------------------------------------------------------------|
-| **Use case**     | Controlling visibility of light in streetlights at different times of the day.  |
+| --------------- | ----------------------------------------------------------------------------------------------------- |
+| **Use case**    | Controlling visibility of light in streetlights at different times of the day.                        |
 
 ## Components (Things You will need)
 
-| ![LED](../../assets/components/buzzer_ima.webp) | ![Arduino Uno](../../assets/components/arduino.png) | ![Arduino USB Cable](../../assets/components/USB_Cable.png) | ![Breadboard](../../assets/components/breadboard.png) |![Jumper Wires](../../assets/components/jump_wire.png)| ![LDR Sensor](../../assets/components/ldr.png)|
-|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
+| ![LED](../../assets/components/LED.png) | ![Arduino Uno](../../assets/components/arduino.png) | ![Arduino USB Cable](../../assets/components/USB_Cable.png) | ![Breadboard](../../assets/components/breadboard.png) | ![Jumper Wires](../../assets/components/jump_wire.png) | ![LDR Sensor](../../assets/components/ldr.png) |
+| --------------------------------------- | --------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- |
 
 ## Building the circuit
 
 Things Needed:
 
--	1 Arduino Uno 
--	1 Arduino USB cable 
--	1 Light dependent resistor   
--	1 Green LED 
--	1 Red LED 
--	1 Breadboard 
--	1 Red jumper wire 
--	1 Black jumper wire 
--	1 Green jumper wire 
--	1 Brown jumper wire 
--	1 White jumper wire 
--	2 Violet jumper wire 
--	1 Yellow jumper wire 
--	1 Orange jumper wire 
-
+- 1 Arduino Uno
+- 1 Arduino USB cable
+- 1 Light dependent resistor
+- 1 Green LED
+- 1 Red LED
+- 1 Breadboard
+- 1 Red jumper wire
+- 1 Black jumper wire
+- 1 Green jumper wire
+- 1 Brown jumper wire
+- 1 White jumper wire
+- 2 Violet jumper wire
+- 1 Yellow jumper wire
+- 1 Orange jumper wire
 
 ## Mounting the component on the breadboard
 
 ### Things needed:
 
--	1 Light dependent resistor  
--	1 Green LED 
--	1 Red LED 
--	1 Breadboard 
+- 1 Light dependent resistor
+- 1 Green LED
+- 1 Red LED
+- 1 Breadboard
 
-**Step 1:** Take the light dependent resistor and the breadboard, insert the light dependent resistor into the horizontal connectors on the   breadboard.
+**Step 1:** Take the light dependent resistor and the breadboard, insert the light dependent resistor into the horizontal connectors on the breadboard.
 
 ![LDR sensor fixed on breadboard](../../assets/2.0/3.2.LDR+Buzzer/circuit_1.jpg).
 
@@ -54,16 +53,16 @@ Things Needed:
 
 ### Things Needed:
 
--	1 Red male-to-male jumper wire 
--	1 Black male-to-male jumper wire 
--	1 White male-to-male jumper wire 
--	1 Yellow male-to-male jumper wire 
--	1 Brown male-to-male jumper wire 
--	2 Green male-to-male Jumper Wire 
--	2 Violet male-to-male Jumper Wire 
--	1 Orange male-to-male Jumper Wire 
--	1 Grey male-to-male Jumper Wire 
--	1 Blue male-to-male Jumper Wire 
+- 1 Red male-to-male jumper wire
+- 1 Black male-to-male jumper wire
+- 1 White male-to-male jumper wire
+- 1 Yellow male-to-male jumper wire
+- 1 Brown male-to-male jumper wire
+- 2 Green male-to-male Jumper Wire
+- 2 Violet male-to-male Jumper Wire
+- 1 Orange male-to-male Jumper Wire
+- 1 Grey male-to-male Jumper Wire
+- 1 Blue male-to-male Jumper Wire
 
 **Step 1:** Take the green jumper wire. Connect one end of the wire to the “VCC” port on the LDR module and the other end to the “5V” port on the Arduino UNO board. As shown in the picture below.
 
@@ -81,7 +80,7 @@ Things Needed:
 
 ![Brown wire fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED2/wire%204.png).
 
-**Step 5:** Take the orange jumper wire.  Connect one end of the wire to the negative pin of the red LED and connect the other end to GND pin on the Arduino UNO board. As shown in the picture below.
+**Step 5:** Take the orange jumper wire. Connect one end of the wire to the negative pin of the red LED and connect the other end to GND pin on the Arduino UNO board. As shown in the picture below.
 
 ![Orange wire fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED2/wire%205.png).
 
@@ -100,43 +99,46 @@ Things Needed:
 
 **Step 1:** Open your Arduino IDE. See how to set up here: [Getting Started](../../../../README.md#getting-started).
 
-**Step 2:** Type ``` const int LDR_PIN = A0.```   as shown below in the image 
-_**NB:** Make sure you avoid errors when typing. Do not omit any character or symbol especially the bracket { }  and semicolons ;  and place them as you see in the image . The code that comes after the two ash backslashes “//” are called comments. They are not part of the code that will be run, they only explain the lines of code. You can avoid typing them._
+**Step 2:** Type ` const int LDR_PIN = A0.` as shown below in the image
+_**NB:** Make sure you avoid errors when typing. Do not omit any character or symbol especially the bracket { } and semicolons ; and place them as you see in the image . The code that comes after the two ash backslashes “//” are called comments. They are not part of the code that will be run, they only explain the lines of code. You can avoid typing them._
 
 ![Code 1](../../assets/2.0/3.2.LDR+Buzzer/code_1.jpg).
 
-**Step 3:** Type ```const int DO_PIN = 8;``` as shown below in the image
+**Step 3:** Type `const int DO_PIN = 8;` as shown below in the image
 
 ![Code 2](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/code_1.png).
 
-**Step 4:** Type ```const int Red = 5;``` as shown below in the image
+**Step 4:** Type `const int Red = 5;` as shown below in the image
 
 ![Code 3](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/code_2.png).
 
-**Step 5:** Type ```const int Green = 7;``` as shown below in the image
+**Step 5:** Type `const int Green = 7;` as shown below in the image
 
 ![Code 4](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/code_3.png).
 
-**Step 8:** Type ```int ldrValue;  ``` as shown below in the image
+**Step 8:** Type `int ldrValue;  ` as shown below in the image
 ![Code 2](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/code_6.png).
 
-**Step 9:** Type ``` int digitalValue;  ``` as shown below in the image
+**Step 9:** Type `int digitalValue; ` as shown below in the image
 ![Code 3](../../assets/2.0/3.1.LDR+LED/LDR_and_LED2/code%206.PNG).
 
 **Step 10:** Type the following code as shown below in the image
-``` 
+
+```
 pinMode(DO_PIN, INPUT);
 Serial.begin(9600);
 pinMode(Red, OUTPUT);
 pinMode(Green, OUTPUT);
 
 ```
+
 ![Code 4](../../assets/2.0/3.1.LDR+LED/LDR_and_LED2/code%204.PNG).
 
 **Step 11:** NOW let finish up by tying the followi ng codes in the void loop function shown below in the image
-``` 
+
+```
 ldrValue = analogRead(LDR_PIN);
-  
+
   // Read the digital input value
   digitalValue = digitalRead(DO_PIN);
 
@@ -159,6 +161,7 @@ ldrValue = analogRead(LDR_PIN);
   delay(200);
 
 ```
+
 ![Code 5](../../assets/2.0/3.1.LDR+LED/LDR_and_LED2/code%205.PNG).
 
 **Step 21:** Save your code. _See the [Getting Started](../../../../README.md#getting-started) section_
