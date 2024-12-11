@@ -80,9 +80,9 @@ _**NB:** Make sure you avoid errors when typing. Do not omit any character or sy
 
 ![Code 4](../../assets/2.0/3.2.LDR+Buzzer/code_4.png).
 
-**Step 6:** Type ```pinMode (DO_PIN, INPUT);``` as shown below in the image
+**Step 6:** Type ```Serial.begin(9600);``` as shown below in the image
 
-![Code 4](../../assets/2.0/3.2.LDR+Buzzer/code_4.png).
+![Code 4](../../assets/2.0/3.2.LDR+Buzzer/code_10.png).
 
 **Step 7:** Type ```int ldrValue = analogRead (LDR_PIN); ``` as shown below in the image
 
@@ -96,7 +96,7 @@ _**NB:** Make sure you avoid errors when typing. Do not omit any character or sy
 
 ![Code 7](../../assets/2.0/3.2.LDR+Buzzer/code_8.png).
 
-**Step 10:** Type ```Serial.printIn(IdrValue);``` as shown below in the image
+**Step 10:** Type ```Serial.printIn(ldrValue);``` as shown below in the image
 
 ![Code 8](../../assets/2.0/3.2.LDR+Buzzer/code_9.png).
 
@@ -108,6 +108,24 @@ _**NB:** Make sure you avoid errors when typing. Do not omit any character or sy
 
 ![Code 10](../../assets/2.0/3.2.LDR+Buzzer/code_11.jpg).
 
-**Step 13:** Type ```Serial.println(digitalValue);``` as shown below in the image
+**Step 13:** Type ```if(ldrValue < 100){``` as shown below in the image
 
-![Code 11](../../assets/2.0/3.2.LDR+Buzzer/code_11.jpg).
+![Code 11](../../assets/2.0/3.2.LDR+Buzzer/code_12.png).
+
+**Step 14:** Type ```digitalWrite(BUZZER, HIGH);}``` as shown below in the image
+
+![Code 12](../../assets/2.0/3.2.LDR+Buzzer/code_13.png).
+
+**Step 15:** Type ```else{digitalWrite(BUZZER, LOW);}``` as shown below in the image
+
+![Code 12](../../assets/2.0/3.2.LDR+Buzzer/code_14.png).
+
+**Step 16:** Save your code. _See the [Getting Started](../../../../README.md#getting-started) section_
+
+**Step 17:** Select the arduino board and port _See the [Getting Started](../../../../README.md#getting-started) section:Selecting Arduino Board Type and Uploading your code_.
+
+**Step 18:** Upload your code. _See the [Getting Started](../../../../README.md#getting-started) section:Selecting Arduino Board Type and Uploading your code_
+
+## Conclusion
+
+If you encounter any problems when trying to upload your code to the board, run through your code again to check for any errors or missing lines of code. If you did not encounter any problems and the program ran as expected, Congratulations on a job well done. You have now learnt how to program a buzzer to go off  in the absence of light. Practice, as they say makes perfect. Continue to work hard and in time you’ll master it.
