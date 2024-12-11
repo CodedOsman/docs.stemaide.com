@@ -44,19 +44,19 @@ Things Needed:
 
 ![LDR sensor fixed on breadboard](../../assets/2.0/3.2.LDR+Buzzer/circuit_1.jpg).
 
-**Step 2:** Insert the red LED into the horizontal connectors on the breadboard beside the ultrasonic sensor and take note of where the positive pin (long pin) is and where the negative pin (short pin) is as shown in the picture below.
+**Step 2:** Insert the red LED into the horizontal connectors on the breadboard beside the LDR and take note of where the positive pin (long pin) is and where the negative pin (short pin) is as shown in the picture below.
 
 ![Red LED fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/circuit_2.jpg).
 
-**Step 3:** Insert the LED green into the horizontal connectors on the breadboard on the other side of the ultrasonic sensor and take note of where the positive pin (long pin) is and where the negative pin (short pin) is as shown in the picture below.
+**Step 3:** Insert the LED green into the horizontal connectors on the breadboard on the other side of the LDR and take note of where the positive pin (long pin) is and where the negative pin (short pin) is as shown in the picture below.
 
 ![Green LED fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/circuit_3.jpg).
 
-**Step 4:** Insert the blue LED into the horizontal connectors on the breadboard on the other side of the ultrasonic sensor and take note of where the positive pin (long pin) is and where the negative pin (short pin) is as shown in the picture below. 
+**Step 4:** Insert the blue LED into the horizontal connectors on the breadboard on the other side of the LDR and take note of where the positive pin (long pin) is and where the negative pin (short pin) is as shown in the picture below. 
 
 ![Blue LED fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/circuit_4.jpg).
 
-**Step 5:** Insert the whitw LED into the horizontal connectors on the breadboard on the other side of the ultrasonic sensor and take note of where the positive pin (long pin) is and where the negative pin (short pin) is as shown in the picture below. 
+**Step 5:** Insert the whitw LED into the horizontal connectors on the breadboard on the other side of the LDR and take note of where the positive pin (long pin) is and where the negative pin (short pin) is as shown in the picture below. 
 
 ![White LED fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/circuit_5.jpg).
 
@@ -148,7 +148,7 @@ _**NB:** Make sure you avoid errors when typing. Do not omit any character or sy
 
 ![Code 3](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/code_2.png).
 
-**Step 5:** Type ```const int Green = 5;``` as shown below in the image
+**Step 5:** Type ```const int Green = 7;``` as shown below in the image
 
 ![Code 4](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/code_3.png).
 
@@ -230,6 +230,7 @@ _**NB:** Make sure you avoid errors when typing. Do not omit any character or sy
         digitalWrite (Green, LOW);
         digitalWrite (Blue, LOW);
         digitalWrite (White, LOW);
+    }
     ```
 
 ![Code 18](../../assets/2.0/3.1.LDR+LED/LDR_and_LED4/code_18.png).
