@@ -1,8 +1,8 @@
-# Project 2.001: LED and Ultrasonic Sensor Control 
+# Project 2.001: Smart Trafic Light System. 
 
-| **Description** | You will learn how to create a simple circuit using a microcontroller, LED and an Ultrasonic Sensor. |
+| **Description** | You will learn how to create a simple circuit using a microcontroller, Trafic Light and an Ultrasonic Sensor. |
 |------------------|----------------------------------------------------------------|
-| **Use case**     | Imagine you want to use a sensor to measure the distance of an object and turn on or off and LED based on the distance measured using Arduino. |
+| **Use case**     | Imagine you want to cross the road and you need a smart Trafic Light System|
 
 ## Components (Things You will need)
 
