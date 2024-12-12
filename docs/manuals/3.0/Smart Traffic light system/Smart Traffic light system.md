@@ -150,4 +150,4 @@ void loop() {
 
 
 ## CONCLUSION
-To sum up, the one LED blink project demonstrates a foundational concept in electronics and programming. Through this simple yet illuminating endeavor, learners grasp the essentials of hardware interfacing, coding logic, and timing control. This project lays the groundwork for more advanced explorations while showcasing the transformative power of just a single LED, sparking curiosity and creativity in the world of DIY electronics.
+The Smart Traffic Light System demonstrates how an ultrasonic sensor and Arduino can dynamically control traffic signals based on distance detection. This project enhances traffic management and road safety while providing hands-on experience with circuit building and coding.
