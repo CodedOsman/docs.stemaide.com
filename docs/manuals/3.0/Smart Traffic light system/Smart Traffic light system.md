@@ -77,7 +77,7 @@ Things Needed:
 
 **Step 1:** Open your Arduino IDE. See how to set up here: [Getting Started](../../../../README.md#getting-started).
 
-**Step 2:** 
+**Step 2:**  Write the following codes as flows.
 ```
 const int trigPin = 9;    // Ultrasonic Sensor Trig Pin
 const int echoPin = 10;   // Ultrasonic Sensor Echo Pin
