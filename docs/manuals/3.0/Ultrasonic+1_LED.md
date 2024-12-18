@@ -16,24 +16,18 @@ Things Needed:
 -	Arduino Uno Board: 1
 -	Arduino USB cable: 1
 -	Breadboard: 1
--	Red jumper wire: 1
--	Black jumper wire: 1
--	White jumper wire: 1
--	Blue jumper wire: 1
--	Brown jumper wire: 1
--	Red LED: 1
--	Green Jumper Wire: 1
+-	Red Led : 1
+-	Green led: 1
+-	Jumper Wire: 1
+-	Ultrasonic sensor: 1
 
 ## Mounting the component on the breadboard
 
 ### Things needed:
--	Ultrasonic Sensor = 1
--	Breadboard =1
-- 	Red LED = 1
 
-**Step 1:** Take the breadboard and the ultrasonic sensor. Insert the ultrasonic sensor into the horizontal connectors on the breadboard, with the pins facing outwards as shown in the picture below
+**Step 1:**  Connect one end of red male-to-male jumper wire to the VCC pin of the ultrasonic sensor on the breadboard and the other end to 5v on the Arduino UNO as shown below.
 
-![LED fixed on breadboard](../../assets/2.0/1.1.Ultrasonic+LED/ultrasonic_on_breadboard.jpg).
+![LED fixed on breadboard](../../assets/2.0/1.1.Ultrasonic+LED/).
 
 **Step 2:** Insert the red LED into the horizontal connectors on the breadboard beside the ultrasonic sensor and take note of where the positive pin (long pin) is and where the negative pin (short pin) is as shown in the picture below.
 
@@ -52,7 +46,7 @@ Things Needed:
 
 **Step 1:** Connect one end of the red male-to-male jumper wire to the VCC pin of the Ultrasonic sensor and the other end to the 5V pin on the Arduino Uno board as shown in the picture below.
 
-![LED fixed on breadboard](../../assets/2.0/1.1.Ultrasonic+LED/circuit_1.jpg)
+![LED fixed on breadboard](../../assets/2.0/1.1.Ultrasonic+LED/circuit_1.jpg).
 
 **Step 2:** Connect one end of the black male-to-male jumper wire to the GND pin of the Ultrasonic sensor and the other end to the GND pin on the Arduino Uno board as shown in the picture below.
 

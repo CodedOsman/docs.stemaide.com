@@ -55,27 +55,27 @@ Things Needed:
 
 **Step 1:** Take the green jumper wire. Connect one end of the wire to the “VCC” port on the LDR module and the other end to the “5V” port on the Arduino UNO board. As shown in the picture below.
 
-![alt text](image-1.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-1.png).
 
 **Step 2:** Take the black jumper wire, connect one end of the wire to the “GND” port on the Arduino UNO board and the other end to the “GND” port on the LDR module. As shown in the picture below
 
-![alt text](image-2.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-2.png).
 
 **Step 3:** Take the violet jumper wire, connect one end of the wire to the “DO” pin of the LDR module and the other end to the digital pin 8 on the Arduino UNO board. As shown in the picture below.
 
-![alt text](image-3.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-3.png).
 
 **Step 4:** Take the brown jumper wire, connect one end of the wire to the “AO” port on the Arduino UNO board and the other end of the pin to the “AO” pin of the LDR module.
 
-![alt text](image-4.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-4.png).
 
 **Step 5:** Take the orange jumper wire.  Connect one end of the wire to the negative pin of the red LED and connect the other end to GND pin on the Arduino UNO board. As shown in the picture below.
 
-![alt text](image-5.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-5.png).
 
 **Step 6:** Take the red jumper wire, connect one end of the wire to the positive pin of the red LED and connect the other end to digital pin 5 on the Arduino UNO board. As shown in the picture below.
 
-![alt text](image-6.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-6.png).
 
 
 ## PROGRAMMING
@@ -85,71 +85,69 @@ Things Needed:
 **Step 2:** Type ```const int LDR_PIN = A0.```   as shown below in the image 
 _**NB:** Make sure you avoid errors when typing. Do not omit any character or symbol especially the bracket { }  and semicolons ;  and place them as you see in the image . The code that comes after the two ash backslashes “//” are called comments. They are not part of the code that will be run, they only explain the lines of code. You can avoid typing them._
 
-![alt text](image-7.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-7.png).
 
 **Step 3:** Type ```const int DO_PIN = 2;``` as shown below in the image
 
-![alt text](image-8.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-8.png).
 
 **Step 4:** Type ```const int LED = 6; ``` as shown below in the image
 
-![alt text](image-9.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-9.png)
 
 **Step 5:** Type ```pinMode (LED, OUTPUT); ;``` as shown below in the image
 
-![alt text](image-10.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-10.png).
 
 **Step 6:** Type ```pinMode (DO_PIN, INPUT); ``` as shown below in the image
 
-![alt text](image-11.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-11.png).
 
 **Step 7:** Type ```Serial.begin(9600);  ``` as shown below in the image
 
-![alt text](image-12.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-12.png).
 
 **Step 8:** Type ```int ldrValue = analogRead (LDR_PIN);   ``` as shown below in the image
-
-![alt text](image-13.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-13.png).
 
 **Step 9:** Type ```int digitalValue = digitalRead (DO_PIN); ``` as shown below in the image
 
-![alt text](image-14.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-14.png).
 
 **Step 10:** Type ```Serial.print(“Analog Value:”); ``` as shown below in the image
 
-![alt text](image-15.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-15.png).
 
 **Step 11:** Type ```Serial.printIn(IdrValue);``` as shown below in the image
 
-![alt text](image-16.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-16.png).
 
 **Step 12:** Type ```Serial.print (“Digital Value:”);``` as shown below in the image
 
-![alt text](image-17.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-17.png).
 
 **Step 13:** Type 
     ```
    Serial.printIn(digitalValue)     
     ``` 
     as shown below in the image
-
-![alt text](image-18.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-18.png).
 
 **Step 14:** Type ``` If (digitalValue < 1) ``` as shown below in the image
 
-![alt text](image-19.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-19.png).
 
 **Step 15:** Type ``` {digitalWrite (LED, HIGH); ```
 } as shown below in the image
 
-![alt text](image-20.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-20.png).
 
 **Step 16:** Type ```else {digitalWrite (LED, LOW);}``` as shown below in the image
 
-![alt text](image-21.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-21.png).
 
 
-![alt text](image-22.png)
+![LDR sensor fixed on breadboard](../../assets/2.0/3.1.LDR+LED/LDR_and_LED1/image-22.png).
 
 
 
