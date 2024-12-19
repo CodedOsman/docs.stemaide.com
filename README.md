@@ -80,7 +80,7 @@ _**NB:** Make sure there is no error in your code and the Arduino USB cable is c
 
 ## Manual 1.0
 
-### 1.0 LED
+### 1.1 LED
 
 - [Turn on one LED](docs/manuals/1.0/LED/1.LED_ON.md)
 - [Blink one LED](docs/manuals/1.0/LED/1.1.One_LED_Blink.md)
@@ -94,19 +94,19 @@ _**NB:** Make sure there is no error in your code and the Arduino USB cable is c
 - [Turn on five LEDs](docs/manuals/1.0/LED/5.Five_LEDs_On.md)
 - [Blink five LEDs](docs/manuals/1.0/LED/5.1.Five_LEDs_Blink.md)
 
-### 2.0 Buzzer
+### 1.2 Buzzer
 
 - [Buzzer On and Off](docs/manuals/1.0/Buzzer/Buzzer%20On%20and%20Off.md)
 - [Buzzer Beep](docs/manuals/1.0/Buzzer/Buzzer%20Beep.md)
 
-### 3.0 Push Button
+### 1.3 Push Button
 
 - [Push Button with 1 LED](docs/manuals/1.0/Push_Button/3.1._Push_Button_press_with_1_LEDs.md)
 - [Push Button with 2 LEDs](docs/manuals/1.0/Push_Button/3.2._Push_Button_press_with_2_LEDs.md)
 - [Push Button with 3 LEDs](docs/manuals/1.0/Push_Button/3.3._Push_Button_press_with_3_LEDs.md)
 - [Push Button with 4 LED](docs/manuals/1.0/Push_Button/3.4._Push_Button_press_with_4_LEDs.md)
 
-### 4.0 Traffic Light Module
+### 1.4 Traffic Light Module
 
 - [Traffic Light Green Light On](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Green%20ON.md)
 - [Traffic Light Blink Green Light](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Green%20Blink.md)
@@ -115,7 +115,7 @@ _**NB:** Make sure there is no error in your code and the Arduino USB cable is c
 - [Traffic Light Yellow Light On](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Yellow%20ON.md)
 - [Traffic Light Blink Yellow Light](docs/manuals/1.0/Traffic%20Light%20Module/Traffic%20Light%20Yellow%20Blink.md)
 
-### 5.0 RGB Module
+### 1.5 RGB Module
 
 - [RGB Introduction](docs/manuals/1.0/RGB/5.0RGB_Intro.md)
 - [RGB Turn Red Light On](docs/manuals/1.0/RGB/5.1.RGB_Red_On.md)
@@ -126,20 +126,20 @@ _**NB:** Make sure there is no error in your code and the Arduino USB cable is c
 - [RGB Blink Blue Light](docs/manuals/1.0/RGB/5.6.RGB_Blue_Blink.md)
 - [RGB Rainbow Colors](docs/manuals/1.0/RGB/5.7.RGB_Rainbow_Colors.md)
 
-### 6.0 LDR Module
+### 1.6 LDR Module
 
 - [LDR Module](docs/manuals/1.0/LDR_Module/LDR_Module.md)
 
-### 7.0 Servo Motor
+### 1.7 Servo Motor
 
 - [Servo Motor One Angle](docs/manuals/1.0/Servo_Motor/7.0.Servo_Motor_One_Angle.md)
 - [Servo Motor Sweep](docs/manuals/1.0/Servo_Motor/7.1.Servo_Motor_Sweep.md)
 
-### 8.0 Ultrasonic Sensor
+### 1.8 Ultrasonic Sensor
 
 - [Ultrasonic Sensor with RGB](docs/manuals/1.0/Ultrasonic_Sensor/ultrasonic_RGB.md)
 
-### 9.0 Sound Sensor
+### 1.9 Sound Sensor
 
 - [Sound Sensor](docs/manuals/1.0/Sound_Sensor/9.0.Sound_Sensor.md)
 
