@@ -6,7 +6,7 @@
 
 ## Components (Things You will need)
 
-| ![LED](../../assets/components/buzzer_ima.webp) | ![Arduino Uno](../../assets/components/arduino.png) | ![Arduino USB Cable](../../assets/components/USB_Cable.png) | ![Breadboard](../../assets/components/breadboard.png) |![Jumper Wires](../../assets/components/jump_wire.png)| ![LDR Sensor](../../assets/components/ldr.png)|
+| ![LED](../../assets/components/LED.png) | ![Arduino Uno](../../assets/components/arduino.png) | ![Arduino USB Cable](../../assets/components/USB_Cable.png) | ![Breadboard](../../assets/components/breadboard.png) |![Jumper Wires](../../assets/components/jump_wire.png)| ![LDR Sensor](../../assets/components/ldr.png)|
 |-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
 
 ## Building the circuit
